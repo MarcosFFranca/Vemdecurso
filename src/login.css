@@ -1,0 +1,104 @@
+/* Define um contÃªiner com largura especÃ­fica, cor de fundo e outros estilos */
+.container {
+    width: 450px; /* Define a largura do contÃªiner */
+    background-color: rgba(255, 255, 255, 0.15); /* Fundo branco semi-transparente */
+    backdrop-filter: blur(1px); /* Aplica um efeito de desfoque no fundo */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Borda branca semi-transparente */
+    padding: 30px; /* EspaÃ§amento interno do contÃªiner */
+    border-radius: 10px; /* Cantos arredondados para o contÃªiner */
+}
+
+/* Estiliza o elemento h1 dentro do contÃªiner */
+.container h1 {
+    text-align: center; /* Centraliza o texto */
+    font-size: 32px; /* Define o tamanho da fonte */
+    color: #fff; /* Cor do texto branca */
+}
+
+/* Estiliza os campos de entrada dentro do contÃªiner */
+.container .input-field {
+    position: relative; /* PosiÃ§Ã£o relativa ao seu local normal */
+    width: 100%; /* Largura total do contÃªiner */
+    height: 50px; /* Define a altura */
+    margin: 30px auto; /* Margem superior e inferior, centraliza horizontalmente */
+}
+
+/* Estiliza os elementos input dentro da classe input-field */
+.input-field input {
+    width: 100%; /* Largura total do elemento pai */
+    height: 100%; /* Altura total do elemento pai */
+    background-color: rgba(0, 0, 0, 0.64); /* Fundo preto semi-transparente */
+    outline: none; /* Remove a borda de foco */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Borda branca semi-transparente */
+    border-radius: 40px; /* Cantos arredondados */
+    font-size: 16px; /* Define o tamanho da fonte */
+    color: #fff; /* Cor do texto branca */
+    padding: 20px 25px; /* EspaÃ§amento interno do input */
+}
+
+/* Estiliza o texto do placeholder dentro dos elementos input */
+.input-field input::placeholder {
+    color: #fff; /* Cor branca para o texto do placeholder */
+}
+
+/* Estiliza o Ã­cone dentro da classe input-field */
+.input-field .icon {
+    position: absolute; /* PosiÃ§Ã£o absoluta em relaÃ§Ã£o ao input-field */
+    right: 25px; /* Posiciona a 25px da direita */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta o centramento vertical */
+    font-size: 18px; /* Define o tamanho da fonte */
+    color: #fff; /* Cor branca */
+}
+
+/* Estiliza a seÃ§Ã£o recall-forget dentro do contÃªiner */
+.container .recall-forget {
+    display: flex; /* Usa layout flexbox */
+    justify-content: space-between; /* EspaÃ§o entre os itens */
+    font-size: 14.5px; /* Define o tamanho da fonte */
+    margin: -15px 0 15px; /* Margem superior negativa, inferior positiva */
+}
+
+/* Estiliza os elementos label dentro da classe recall-forget */
+.recall-forget label {
+    color: #fff; /* Cor do texto branca */
+}
+
+/* Estiliza os elementos input dentro da classe recall-forget */
+.recall-forget input {
+    margin-right: 5px; /* Margem Ã  direita */
+}
+
+/* Estiliza os elementos a (links) dentro das classes recall-forget e signup-link */
+.recall-forget a, .signup-link p a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #fff; /* Cor do texto branca */
+}
+
+/* Adiciona sublinhado ao passar o mouse sobre os links */
+.recall-forget a:hover, .signup-link p a:hover {
+    text-decoration: underline; /* Sublinha o texto ao passar o mouse */
+}
+
+/* Estiliza os elementos button dentro do contÃªiner */
+.container button {
+    width: 100%; /* Largura total do contÃªiner */
+    height: 50px; /* Define a altura */
+    background-color: #fff; /* Fundo branco */
+    border: none; /* Remove a borda */
+    outline: none; /* Remove o contorno */
+    border-radius: 40px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    font-size: 16px; /* Define o tamanho da fonte */
+    font-weight: 600; /* Define o peso da fonte */
+    text-shadow: none; /* Remove a sombra do texto */
+}
+
+/* Estiliza a seÃ§Ã£o signup-link dentro do contÃªiner */
+.container .signup-link {
+    font-size: 15px; /* Define o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    margin: 20px 0 10px; /* Margem superior e inferior */
+    text-shadow: none; /* Remove a sombra do texto */
+}
